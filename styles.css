@@ -1,0 +1,31 @@
+@font-face {
+    font-family: new1;
+    src: url('./FontsFree-Net-Fenway.ttf');
+}
+*{
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+body{
+    background-color: #776b75;
+    color:#F0EDE9;
+    font-family: new1;
+    background-image: url("./monitor-s2725qs-gray-gallery-1.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-family:new1;
+    color:#F0EDE9;
+    font-size: 19px;
+    top: 20px;
+    right: 40px;
+    font-size: 180px;
+
+}
