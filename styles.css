@@ -3,29 +3,39 @@
     src: url('./FontsFree-Net-Fenway.ttf');
 }
 *{
-    padding: 1.25rem;
-    margin: 1.25rem;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
-body{
-    background-color: #776b75;
-    color:#F0EDE9;
-    font-family: new1;
-    background-image: url("./monitor-s2725qs-gray-gallery-1.avif");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 75vh;
-    background-size: contain;
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.cont{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    color: white;
+   
 }
-h1{
-    font-family:new1;
-    color:#F0EDE9;
-    font-size: 19px;
-    top: 20px;
-    right: 40px;
-    font-size: 180px;
+.file{
+    display: none;
+}
+.custom{
+    padding: 12px 22px;
+    background-color: rgb(38, 93, 66);
+    color:white;
+    border-radius: 5px;
+}
+.custom:hover{
+    background-color: rgb(31, 234, 132) ;
+}
 
-}
+
+
+
+
